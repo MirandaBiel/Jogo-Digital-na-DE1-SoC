@@ -69,12 +69,12 @@
 #define SPACING_HARD 130 
 
 // Força da gravidade que puxa o pássaro (controlado por SW5)
-#define GRAVITY_EASY 0.35 // Mais "flutuante"
-#define GRAVITY_HARD 0.5  // Mais "pesado"
+#define GRAVITY_EASY 0.5  // Mais "pesado"
+#define GRAVITY_HARD 0.35 // Mais "flutuante"
 
 // Impulso para cima a cada pulo (controlado por SW6)
-#define JUMP_EASY -7.0 // Pulo mais forte
-#define JUMP_HARD -5.5 // Pulo mais fraco
+#define JUMP_EASY -5.5 // Pulo mais fraco
+#define JUMP_HARD -7.0 // Pulo mais forte
 
 // Raio do pássaro, afetando a área de colisão (controlado por SW7)
 #define RADIUS_EASY 10 // Alvo menor
